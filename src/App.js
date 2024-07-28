@@ -10,13 +10,14 @@ function App() {
         <Col>
           <Card className="text-center">
             <Card.Body>
-              <Card.Title>Welcome to My Web App</Card.Title>
+              <Card.Title>Welcome!</Card.Title>
               <Card.Text>
                 This web app showcases my project, Docu-Dive, a full-stack
                 multi-document-search web-app that utilizes Retrieval Augmented
                 Generation. Below, you can explore a demonstration video,
                 process document, and more information on the tech stack behind
-                this application.
+                this application. A link to the website can be found{" "}
+                <a href="https://www.docu-dive.com">here</a>.
               </Card.Text>
             </Card.Body>
           </Card>
