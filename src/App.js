@@ -30,6 +30,7 @@ function App() {
               <Card.Title>Video Demonstration</Card.Title>
               <div className="video-container">
                 <iframe
+                  title="Docu-Dive Video Demonstration"
                   width="100%"
                   height="400"
                   src="https://www.youtube.com/embed/a_Yy5zWF3pI"
@@ -61,7 +62,7 @@ function App() {
                   <strong>Backend:</strong> Python, FastAPI
                 </li>
                 <li>
-                  <strong>Libraries:</strong> Langchain, ChromaDB
+                  <strong>Libraries:</strong> Langchain, ChromaDB, OpenAI
                 </li>
                 <li>
                   <strong>Cloud Services:</strong> AWS Bedrock, AWS S3, AWS EC2
@@ -114,7 +115,7 @@ function App() {
                 <br></br>
                 <br></br>
                 After letting my friends use the tool, using it myself, and
-                purchasing the docu-dive.com domain, I ran up a personal project
+                purchasing the docu-dive.com domain, I ran up a personal-project
                 tab to be proud of. I disabled the backend to avoid further AWS
                 and OpenAI charges, but the frontend is still accessible. I
                 wanted to create a web application displaying the process that
