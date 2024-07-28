@@ -23,16 +23,16 @@ function App() {
         </Col>
       </Row>
       {/* Second Row */}
-      <Row className="mb-4">
-        <Col md={8}>
-          <Card>
+      <Row className="mb-4" style={{ display: "flex" }}>
+        <Col md={8} style={{ display: "flex", flexDirection: "column" }}>
+          <Card style={{ flex: 1 }}>
             <Card.Body>
               <Card.Title>Video Demonstration</Card.Title>
               <div className="video-container">
                 <iframe
                   title="Docu-Dive Video Demonstration"
                   width="100%"
-                  height="400"
+                  height="300"
                   src="https://www.youtube.com/embed/a_Yy5zWF3pI"
                   style={{ border: 0 }}
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -42,16 +42,21 @@ function App() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4}>
-          <Card>
+        <Col md={4} style={{ display: "flex", flexDirection: "column" }}>
+          <Card style={{ flex: 1 }}>
             <Card.Body>
               <Card.Title>Process Document</Card.Title>
               <Button href="/Docu-Dive Process Document.pdf" download>
                 Download PDF
               </Button>
+              <p>
+                <br></br>
+                An in-depth look at the development process of creating a
+                user-friendly, full-stack document search tool.
+              </p>
             </Card.Body>
           </Card>
-          <Card className="tech-stack-card">
+          <Card className="tech-stack-card" style={{ flex: 1 }}>
             <Card.Body>
               <Card.Title>Tech Stack</Card.Title>
               <ul className="tech-stack-list">
@@ -80,6 +85,18 @@ function App() {
               </ul>
             </Card.Body>
           </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>Use Case</Card.Title>
+              <p>
+                The user may upload and query multiple PDF documents, receiving
+                output that is grounded solely on the input provided, with the
+                tool providing direct citations for all its generated content.
+                This is made possible with the application of Retrieval
+                Augmented Generation.
+              </p>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
       {/* Third Row */}
@@ -89,17 +106,15 @@ function App() {
             <Card.Body>
               <Card.Title>About Docu-Dive</Card.Title>
               <Card.Text>
-                Hi, I'm Pandelis Margaronis. Attending a liberal arts school, my
-                friend and I have to complete abundant reading and write essays
-                frequently. My friends in humanities classes have it way worse
-                than me. They have always found it frustrating when they need to
-                dig up evidence from a series of readings or novels, for some
-                sort of essay. This process is inevitably tedious and
-                tiresome... and querying a GenAI LLM to find quotes or evidence
-                within a large document often proves to be a waste of time, as
-                they have a tendency to hallucinate results in these occassions.
-                Further, even if results are accurate, citations are not
-                provided - if they are, they are vague.
+                At my liberal arts school, my friends and I often have to do
+                extensive reading and write frequent essays. My friends in
+                humanities classes have it even tougher, finding it frustrating
+                to dig up evidence from a series of readings or novels for their
+                essays. This process is inevitably tedious and tiresome. Using
+                GenAI LLMs to find quotes or evidence within large documents
+                often proves to be a waste of time, as they tend to hallucinate
+                results. Even when results are accurate, citations are either
+                missing or vague
                 <br></br>
                 <br></br>
                 So, when my internship plans fell through last minute as a

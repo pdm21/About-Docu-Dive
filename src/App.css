@@ -61,8 +61,15 @@
   height: 100%;
 }
 
-/* .tech-stack-card {
+.tech-stack-card {
+  min-height: 250px; /* Adjust the height as needed to match the video card */
   display: flex;
   flex-direction: column;
-  height: 90%;
-} */
+  justify-content: flex-start;
+}
+
+.tech-stack-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
