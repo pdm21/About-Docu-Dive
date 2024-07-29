@@ -107,15 +107,16 @@ function App() {
             <Card.Body>
               <Card.Title>About Docu-Dive</Card.Title>
               <Card.Text>
-                At my liberal arts school, my friends and I often have to do
-                extensive reading and write frequent essays. My friends in
-                humanities classes have it even tougher, finding it frustrating
-                to dig up evidence from a series of readings or novels for their
-                essays. This process is inevitably tedious and tiresome. Using
-                GenAI LLMs to find quotes or evidence within large documents
-                often proves to be a waste of time, as they tend to hallucinate
-                results. Even when results are accurate, citations are either
-                missing or vague
+                I wanted to make an application that has a practical use case,
+                so I spoke to friends of mine to brainstorm ideas. My school is
+                a liberal arts college - many of my friends are in the
+                humanities and the essay-writing process is inevitably tedious
+                and at times, frustrating. The process involves extensive
+                reading and writing; gathering evidence from ten different forty
+                page readings can be daunting. Using GenAI LLMs to find quotes
+                or evidence within large documents often proves to be a waste of
+                time, as they tend to hallucinate results. Even when results are
+                accurate, citations are either missing or vague.
                 <br></br>
                 <br></br>
                 So, when my internship plans fell through last minute as a
