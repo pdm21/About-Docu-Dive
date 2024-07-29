@@ -107,28 +107,27 @@ function App() {
             <Card.Body>
               <Card.Title>About Docu-Dive</Card.Title>
               <Card.Text>
-                I wanted to make an application that has a practical use case,
-                so I spoke to friends of mine to brainstorm ideas. My school is
-                a liberal arts college - many of my friends are in the
-                humanities and the essay-writing process is inevitably tedious
-                and at times, frustrating. The process involves extensive
-                reading and writing; gathering evidence from ten different forty
-                page readings can be daunting. Using GenAI LLMs to find quotes
-                or evidence within large documents often proves to be a waste of
+                I wanted to make an application with a practical use case, so I
+                spoke to friends of mine to brainstorm ideas. My school is a
+                liberal arts college, and many of my friends are in the
+                humanities. The essay-writing process is inevitably tedious and,
+                at times, frustrating. The process involves extensive reading
+                and writing; gathering evidence from ten different forty-page
+                readings can be daunting. Using GenAI LLMs to find quotes or
+                evidence within large documents often proves to be a waste of
                 time, as they tend to hallucinate results. Even when results are
                 accurate, citations are either missing or vague.
                 <br></br>
                 <br></br>
-                So, when my internship plans fell through last minute as a
-                result of budget cuts at the company, I decided to take on this
-                problem and create a solution by building a full-stack web
-                application that my friends could use to aid them in their work,
-                whether preparing for tests, writing papers, or completing
-                mundane internship tasks. A couple of my friends found the tool
-                helpful while taking summer courses and drafting write-ups for
-                their internship tasks. The tool provides citations not only at
-                the document-level or even page-level, but down to the specific
-                chunk of content used.
+                So, when my internship plans fell through at the last minute due
+                to budget cuts at the company, I decided to tackle this problem
+                by building a full-stack web application that my friends could
+                use to aid them in their work, whether preparing for tests,
+                writing papers, or completing mundane internship tasks. A couple
+                of my friends found the tool helpful while taking summer courses
+                and drafting write-ups for their internship tasks. The tool
+                provides citations not only at the document level or even page
+                level but down to the specific chunk of content used.
                 <br></br>
                 <br></br>
                 After letting my friends use the tool, using it myself, and
